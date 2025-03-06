@@ -1,0 +1,67 @@
+html,
+body{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background: hsl(0, 0%, 95%);
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+#bigBox{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    min-height: 300px;
+    min-width: 350px;
+    margin: auto;
+    padding: 20px;
+    /* border: black solid 3px; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 5px 5px 15px hsl(0, 0%, 0%, 0.5);
+}
+
+#title{
+    font-size: 2em;
+    text-align: center;
+    color: rgb(34, 107, 218);
+}
+
+#radioBox{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#inputTemp{
+    font-size: 1.1em;
+    text-align: center;
+    padding: 5px;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+button{
+    font-size: 1.5em;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    min-height: 25px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px 15px;
+}
+
+button:hover{
+    background-color: firebrick;
+}
